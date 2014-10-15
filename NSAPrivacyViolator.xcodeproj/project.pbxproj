@@ -14,6 +14,7 @@
 		81C89DDB19EED2FF003EAE1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C89DDA19EED2FF003EAE1A /* Images.xcassets */; };
 		81C89DDE19EED2FF003EAE1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C89DDC19EED2FF003EAE1A /* LaunchScreen.xib */; };
 		81C89DEA19EED2FF003EAE1A /* NSAPrivacyViolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C89DE919EED2FF003EAE1A /* NSAPrivacyViolatorTests.m */; };
+		81C89DF419EED717003EAE1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C89DF319EED717003EAE1A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		81C89DE319EED2FF003EAE1A /* NSAPrivacyViolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSAPrivacyViolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C89DE819EED2FF003EAE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81C89DE919EED2FF003EAE1A /* NSAPrivacyViolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAPrivacyViolatorTests.m; sourceTree = "<group>"; };
+		81C89DF319EED717003EAE1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C89DF419EED717003EAE1A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		81C89DC119EED2FF003EAE1A = {
 			isa = PBXGroup;
 			children = (
+				81C89DF319EED717003EAE1A /* CoreLocation.framework */,
 				81C89DCC19EED2FF003EAE1A /* NSAPrivacyViolator */,
 				81C89DE619EED2FF003EAE1A /* NSAPrivacyViolatorTests */,
 				81C89DCB19EED2FF003EAE1A /* Products */,
@@ -81,13 +85,10 @@
 		81C89DCC19EED2FF003EAE1A /* NSAPrivacyViolator */ = {
 			isa = PBXGroup;
 			children = (
-				81C89DD119EED2FF003EAE1A /* AppDelegate.h */,
-				81C89DD219EED2FF003EAE1A /* AppDelegate.m */,
+				81C89DD719EED2FF003EAE1A /* Main.storyboard */,
 				81C89DD419EED2FF003EAE1A /* ViewController.h */,
 				81C89DD519EED2FF003EAE1A /* ViewController.m */,
-				81C89DD719EED2FF003EAE1A /* Main.storyboard */,
 				81C89DDA19EED2FF003EAE1A /* Images.xcassets */,
-				81C89DDC19EED2FF003EAE1A /* LaunchScreen.xib */,
 				81C89DCD19EED2FF003EAE1A /* Supporting Files */,
 			);
 			path = NSAPrivacyViolator;
@@ -96,6 +97,9 @@
 		81C89DCD19EED2FF003EAE1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81C89DD119EED2FF003EAE1A /* AppDelegate.h */,
+				81C89DDC19EED2FF003EAE1A /* LaunchScreen.xib */,
+				81C89DD219EED2FF003EAE1A /* AppDelegate.m */,
 				81C89DCE19EED2FF003EAE1A /* Info.plist */,
 				81C89DCF19EED2FF003EAE1A /* main.m */,
 			);
